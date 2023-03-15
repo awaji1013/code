@@ -1027,6 +1027,7 @@ for(m=0;m<pathNum_fb;m++){
   }
 }
 //信頼値見やすいグラフ作成のため
+for(m=0;m<7;m++){
 re_sum_sup[i][m]=-1.0;
 }
 if(re_check[i][0]!=re_check[i][1] && re_check[i][1]!=re_check[i][2] && re_check[i][0]!=re_check[i][2]){
